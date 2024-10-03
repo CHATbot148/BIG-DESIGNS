@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIG DESIGNS</title>
+    <link rel="stylesheet" href="Big.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BIG GRAPHICAL DESIGNS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Your Vision, Our Creation</h2>
+            <p>Elevate your brand with cutting-edge graphic design that speaks volumes.</p>
+            <a href="work.html" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Start with</h2>
+        <div class="services-grid">
+            <div class="service">
+                <a href="https://www.canva.com"><img src="Images/bs.jpg" alt="Logo Design"></a>
+                <h3>Logo Design</h3>
+                <p>Crafting unique logos that resonate with your brand.</p>
+            </div>
+            <div class="service">
+                <a href="https://www.figma.com"><img src="Images/webit.png" alt="Web Design"></a>
+                <h3>Web Design</h3>
+                <p>Beautiful and functional websites tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <a href="#"><img src="Images/bb.jpg" alt="Brand Identity"></a>
+                <h3>Brand Identity</h3>
+                <p>Comprehensive branding solutions for a lasting impact.</p>
+            </div>
+        </div>
+        <p>You can start to design one of these. So are you ready</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="Images/U.jpg" alt="Project Image">
+                <div class="project-info">
+                    <h3>Smart Cast</h3>
+                    <p>Designed a website for a huge company called SmartCast.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="sidebar" id="sidebar">
+        <button id="toggle-sidebar">Open me</button>
+        <div id="sidebar-content">
+            <h3>Testimonials</h3>
+            <p>"BIG DESIGNS transformed our brand!" - Happy Client</p>
+            <p>"Their design work is exceptional!" - Another Happy Client.
+            <h4>Credits</h4>
+            </p>
+            <p>CEO & Producer: Bashir Ibrahim Gambo</p>
+            <p>Developer & Designer: Khaleel Abdallah</p>
+        </div>
+    </aside>         
+
+    <footer>
+        <div class="footer-content">
+            <h3>BIG DESIGNS</h3>
+            <p>Contact us: basheeribrahim599@gmail.com</p>
+             <ul>
+                <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.instagram.com/big__designer?igsh=Z2ZjMTZpZWV2a2do" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-x"></i></a>
+                <a href="http://www.youtube.com/@KID_COD" class="icon"><i class="fa-brands fa-youtube"></i></a> 
+                <a href="https://www.github.com/chatbot148" class="icon"><i class="fa-brands fa-github"></i></a>
+            </ul>
+        </div>
+    </footer>
+  <script>
+      document.getElementById('toggle-sidebar').addEventListener('click', function() {
+    const sidebarContent = document.getElementById('sidebar-content');
+    
+    if (sidebarContent.classList.contains('open')) {
+        sidebarContent.classList.remove('open');
+    } else {
+        sidebarContent.classList.add('open');
+    }
+});
+  </script>
+</body>
+</html> 
